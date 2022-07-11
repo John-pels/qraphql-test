@@ -5,7 +5,7 @@ import './index.css';
 import App from './App';
 
 const client = new ApolloClient({
-  uri: 'https://dxohd5.sse.codesandbox.io/',
+  uri: process.env.REACT_APP_GRAPHQL_URL,
   cache: new InMemoryCache(),
 })
 
