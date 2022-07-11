@@ -1,0 +1,17 @@
+.filter_container {
+  display: flex;
+  gap: 20px;
+}
+
+.data {
+  margin-top: 30px;
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+}
+
+.data__date {
+  font-weight: 400;
+  font-style: italic;
+}

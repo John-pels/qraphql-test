@@ -1,0 +1,17 @@
+.filter {
+  display: flex;
+  gap: 20px;
+  overflow-x: auto;
+}
+
+.filter__action {
+  padding: 8px 15px;
+  border-radius: 3px;
+  border: 1px solid rgb(164, 163, 163);
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.selected {
+  border: 1.5px solid rgb(52, 51, 51);
+}

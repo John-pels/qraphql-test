@@ -1,0 +1,17 @@
+.card {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+}
+
+.card__icon {
+  width: 15%;
+  padding: 10px;
+  box-shadow: var(--card_box-shadow);
+}
+
+.card__data {
+  width: 85%;
+  padding: 10px;
+  box-shadow: var(--card_box-shadow);
+}
