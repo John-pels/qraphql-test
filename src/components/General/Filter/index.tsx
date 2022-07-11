@@ -17,7 +17,6 @@ const FilterActions: FC<IFilter> = ({ setTransactions }) => {
         getStatusFilteredData({
             variables: { query: status },
             onCompleted(data) {
-                console.log('hey paid', data)
                 const formattedData = formatData(data)
                 setTransactions(formattedData)
             }
@@ -28,7 +27,6 @@ const FilterActions: FC<IFilter> = ({ setTransactions }) => {
         getTypeFilteredData({
             variables: { query: type },
             onCompleted(data) {
-                console.log('hey paystack', data)
                 const formattedData = formatData(data)
                 setTransactions(formattedData)
             }
@@ -43,7 +41,6 @@ const FilterActions: FC<IFilter> = ({ setTransactions }) => {
                 setSelected(index)
                 getAllData({
                     onCompleted(data) {
-                        console.log('all data', data)
                         const formattedData = formatData(data)
                         setTransactions(formattedData)
                     }

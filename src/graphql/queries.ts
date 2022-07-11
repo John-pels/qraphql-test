@@ -1,4 +1,4 @@
-import { gql, useQuery } from "@apollo/client";
+import { gql } from "@apollo/client";
 
 export const GET_ALL_TRANSACTIONS = gql`
   {
@@ -41,6 +41,18 @@ export const TYPE_FILTER_QUERY = gql`
       date
       imageUrl
       isVerified
+    }
+  }
+`;
+
+export const GLOBAL_SEARCH_QUERY = gql`
+  query SearchByQuery($query: String) {
+    allTransactions(filter: { q: $query }) {
+      id
+      name
+      type
+      status
+      date
     }
   }
 `;
