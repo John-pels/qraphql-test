@@ -11,7 +11,7 @@
 
 > ### How to run the app on your local computer
 >
-> - create an .env file, then copy and paste **REACT_APP_API_BASE_URL=https://dxohd5.sse.codesandbox.io** intto it
+> - create an .env file, then copy and paste **REACT_APP_GRAPHQL_URL=https://dxohd5.sse.codesandbox.io** intto it
 > - run **yarn install** or **npm install**
 > - run **yarn start** or **npm run start**
 
