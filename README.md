@@ -36,4 +36,4 @@
 
 > ### Experience and Optimization
 >
-> - My experience using the app is quite okay, I like the fact that the filter buttons are concise enough with no ambiguity. Talking about optimization and things to improve, I'll like to add error boundary, create custom hooks for filter actions, and also refactor the code.
+> - My experience using the app is quite okay, I like the fact that the filter buttons are concise enough with no ambiguity. Talking about optimization and things to improve, I'll like to add error boundary, loading placeholders, custom hooks for filter actions, and also refactor the code.
